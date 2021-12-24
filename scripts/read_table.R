@@ -187,3 +187,18 @@ matplot(plotData,
         xlab = "PND",
         ylab = "Weight")
 dev.off()
+
+
+# Repeated measures ANOVA
+library(lme4)
+
+neuro.lmer.m <- lmer(Weight_.g. ~ PND + (1|id), neurodevelopmentData)
+print(Anova(neuro.lmer.m))
+
+#Analysis of Deviance Table (Type II Wald chisquare tests)
+#
+#Response: Weight_.g.
+#    Chisq Df Pr(>Chisq)    
+#PND  4800 20  < 2.2e-16 ***
+#---
+#Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
