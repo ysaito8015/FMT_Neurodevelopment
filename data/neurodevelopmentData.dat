@@ -1,4 +1,4 @@
-id	PND	Forelimb_grasp	Forelimb_placing	Gait	Walk	Surface_T_(s)	NG_turn	NG_top	Auditory_startle	Tactile_startle	Air_righting	Wire	Weight_(g)	Ears_unfolding	Ears_twitch	Gait_b	Walk_b	Eyes_opened_left	Eyes_opened_right	Incisor_eruption
+id	PND	Forelimb_grasp	Forelimb_placing	Gait	Walk	Surface_T_s	NG_turn	NG_top	Auditory_startle	Tactile_startle	Air_righting	Wire	Weight_g	Ears_unfolding	Ears_twitch	Gait_b	Walk_b	Eyes_opened_left	Eyes_opened_right	Incisor_eruption
 0	1	0	0	60.00	60.00	60.00	60.00	60.00	0	0	0	60.00	0.28	0	0	0	0	0	0	0
 1	1	0	0	60.00	60.00	60.00	60.00	60.00	0	0	0	60.00	0.17	0	0	0	0	0	0	0
 2	1	0	0	60.00	60.00	60.00	60.00	60.00	0	0	0	60.00	0.26	0	0	0	0	0	0	0
