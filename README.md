@@ -1,43 +1,71 @@
 # Data Analysis of FMT NeurodevelopmentData
 
+0. Data Check
 1. boxplot with ignored individual diffrence
 2. one-way ANOVA with ignored individual difference
 3. repeated measures line plotting
 4. repeated measures ANOVA and least square mean
 
+# 0. Data Check
+
+- all ids and PNDs have same data count
+
+```
+    PND
+id   1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21
+  0  1 1 1 1 1 1 1 1 1  1  1  1  1  1  1  1  1  1  1  1  1
+  1  1 1 1 1 1 1 1 1 1  1  1  1  1  1  1  1  1  1  1  1  1
+  2  1 1 1 1 1 1 1 1 1  1  1  1  1  1  1  1  1  1  1  1  1
+  3  1 1 1 1 1 1 1 1 1  1  1  1  1  1  1  1  1  1  1  1  1
+  4  1 1 1 1 1 1 1 1 1  1  1  1  1  1  1  1  1  1  1  1  1
+  5  1 1 1 1 1 1 1 1 1  1  1  1  1  1  1  1  1  1  1  1  1
+  6  1 1 1 1 1 1 1 1 1  1  1  1  1  1  1  1  1  1  1  1  1
+  7  1 1 1 1 1 1 1 1 1  1  1  1  1  1  1  1  1  1  1  1  1
+  8  1 1 1 1 1 1 1 1 1  1  1  1  1  1  1  1  1  1  1  1  1
+  9  1 1 1 1 1 1 1 1 1  1  1  1  1  1  1  1  1  1  1  1  1
+  10 1 1 1 1 1 1 1 1 1  1  1  1  1  1  1  1  1  1  1  1  1
+```
+
 # 1. Boxplot with ignored individual difference
 <img src='https://github.com/ysaito8015/FMT_Neurodevelopment/blob/main/plots/boxplot-Gait.png?raw=true' width='500'>
 
-
+- significant change at PND 10
 
 <img src='https://github.com/ysaito8015/FMT_Neurodevelopment/blob/main/plots/boxplot-Walk.png?raw=true' width='500'>
 
-
+- significant change at PND 10
 
 <img src='https://github.com/ysaito8015/FMT_Neurodevelopment/blob/main/plots/boxplot-Surface_T_s.png?raw=true' width='500'>
 
-
+- significant change at PND 3
 
 <img src='https://github.com/ysaito8015/FMT_Neurodevelopment/blob/main/plots/boxplot-NG_turn.png?raw=true' width='500'>
 
-
+- significant change at PND 5
+- this variable has a large variance
 
 <img src='https://github.com/ysaito8015/FMT_Neurodevelopment/blob/main/plots/boxplot-NG_top.png?raw=true' width='500'>
 
-
+- The medians (50% point) are on the top almost all PND
 
 <img src='https://github.com/ysaito8015/FMT_Neurodevelopment/blob/main/plots/boxplot-Walk.png?raw=true' width='500'>
 
+- significant change at PND 10
+- this variable has a large variance
 
 
 <img src='https://github.com/ysaito8015/FMT_Neurodevelopment/blob/main/plots/boxplot-Wire.png?raw=true' width='500'>
 
+- significant change at PND 7
 
 
 <img src='https://github.com/ysaito8015/FMT_Neurodevelopment/blob/main/plots/boxplot-Weight_g.png?raw=true' width='500'>
 
+- significant change at PND 3
+- this variable has a small variance
 
 # 2. one-way ANOVA with ignored individual difference
+- all numeric variables have the low P-value
 
 ## Gait
 ```
@@ -125,6 +153,8 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 
 
 # 3. repeated measures line plotting
+- The Weight variable probabliy has individual difference
+
 <img src='https://github.com/ysaito8015/FMT_Neurodevelopment/blob/main/plots/repeated-measures-plot-Gait.png?raw=true' width='500'>
 
 
